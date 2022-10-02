@@ -1,0 +1,111 @@
+body {
+    margin: 0;
+    padding: o;
+    background-image: url('hii.jpg');
+    color: white;
+    overflow: auto;
+}
+
+.left {
+    position: absolute;
+    display: inline-block;
+    left: 15px;
+    top: 10px;
+    padding: 5px;
+}
+
+img.logo {
+    width: 160px;
+    padding: -36px 46px;
+    margin: -35px;
+}
+
+.mid {
+    display: block;
+    margin: 15px auto;
+    width: 50%;
+}
+
+li {
+    display: inline-block;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    padding: 20px;
+    color: white;
+    font-size: 25px;
+}
+
+a:hover {
+    color: aqua;
+    font-size: large;
+}
+
+p {
+    margin-left: 10px;
+}
+
+.right {
+    position: absolute;
+    display: inline-block;
+    right: 15px;
+    top: 10px;
+}
+
+.btn {
+    padding: 4px;
+    margin: 0 2px;
+    border-radius: 10px;
+}
+
+.btn:hover {
+    background-color: blue;
+    color: white;
+}
+
+.test {
+    height: 400px;
+    margin: 55px;
+    display: block;
+    width: 330px;
+}
+
+article div {
+    text-align: center;
+    font-weight: bold;
+    padding: 5px;
+}
+
+.picture {
+    padding-left: 382px;
+    height: 250px;
+    margin-right: 29px;
+    position: absolute;
+    right: 3px;
+    top: 129px;
+}
+
+img#pic {
+
+    display: block;
+    margin: auto;
+    width: 400px;
+}
+
+h5 {
+    margin: 0;
+}
+
+.gh {
+    padding: 7px 89px;
+    margin: 15px;
+    border-radius: 8px;
+}
+
+.gh:hover {
+    background-color: blue;
+    color: white;
+    cursor: pointer;
+}
