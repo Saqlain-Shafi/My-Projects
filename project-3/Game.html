@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        //LETS PLAY ROCK,SCISSOR AND PAPER WITH THE SYSTEM(CPU).
+        let user = prompt('Enter R,S OR P');
+        let b = Math.floor(Math.random() * 3);
+        let system = ['R', 'S', 'P'][b];
+        let match = (user, system) => {
+            if (user === system) {
+                return "Nobody";
+            }
+            else if (user === 'R' && system === 'S') {
+                return 'user';
+            } else if (user === 'R' && system === 'p') {
+                return 'system';
+            }
+            else if (user === 'S' && system === 'P') {git
+                return 'user';
+            } else if (user === 'S' && system === 'R') {
+                return 'system';
+            } else if (user === 'P' && system === 'R') {
+                return 'user';
+            } else (user === 'P' && system === 'S')
+            { return 'system'; }
+        }
+
+        let result = match(user, system);
+        alert('The winner is: ' + result);
+
+    </script>
+</body>
+
+</html>
